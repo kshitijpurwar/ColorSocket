@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+	<title>React + Socket</title>
+	<style type="text/css" media="screen">
+		html, body{
+			height: 100%;
+		}
+		body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: all .5s ease-in-out;
+		}
+		.button__group{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+		}
+		button{
+			margin: 20px;
+			padding: 20px 15px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			height: 96px;
+			width: 96px;
+			border: 3px solid #fff;
+			border-radius: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="button__group">
+		<button type="button" data-color="skyblue"></button>
+		<button type="button" data-color="maroon"></button>
+		<button type="button" data-color="crimson"></button>
+		<button type="button" data-color="lavender"></button>
+		<button type="button" data-color="cyan"></button>
+		<button type="button" data-color="teal"></button>
+		<button type="button" data-color="pink"></button>
+		<button type="button" data-color="grey"></button>
+	</div>
+	<script src="./app.js"></script>
+</body>
+</html>
